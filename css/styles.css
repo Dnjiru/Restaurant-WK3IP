@@ -50,23 +50,21 @@
   color: black;
 }
 
-#jumbotron-navbar {
+
+#jumbotron-menu {
   background-image: url("../img/foodsBg.jpg");
-  height: 400px;
   color: white;
+  height:600px;
+
+}
+.tab-links {
+  display: inline-block;
+
 }
 
-/* #drinkimg-border {
-  box-sizing: content-box;
-  border-style: solid;
-  border-color:white;
-  border-width: 20px;
-  -webkit-box-shadow: -4px 7px 83px -4px rgba(0,0,0,0.67);
--moz-box-shadow: -4px 7px 83px -4px rgba(0,0,0,0.67);
-box-shadow: -4px 7px 83px -4px rgba(0,0,0,0.67);
-
-} */
-
+#inner {
+  height: 500px;
+}
 
 .customers {
   background-color: white;
@@ -85,6 +83,6 @@ box-shadow: -4px 7px 83px -4px rgba(0,0,0,0.67);
 
 .footer {
   background-color: orange;
-  align-content: center;
+  align-content: center
 
 }
