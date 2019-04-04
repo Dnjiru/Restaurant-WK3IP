@@ -1,3 +1,43 @@
-#story {
-    display: none;
-  }
+.body {
+  font-family: 'Playfair Display', serif;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  background-image: url("../img/landing.jpg");
+}
+
+
+#brunchdinner {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+#happy {
+  background-color: red;
+
+}
+
+#breakfast {
+  background-image: url("../img/breakfast.jpg");
+  height:200px;
+  background-image: cover;
+  
+
+}
+#lunch {
+  background-image: url("../img/lunch.jpg");
+  background-image: cover;
+}
+#dinner {
+  background-image: url("../img/dinner.jpg");
+}
+
