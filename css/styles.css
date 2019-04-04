@@ -41,3 +41,8 @@
   background-image: url("../img/dinner.jpg");
 }
 
+#fastfood {
+  display: flexbox;
+  color: black;
+}
+
