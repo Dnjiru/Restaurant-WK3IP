@@ -67,13 +67,7 @@ box-shadow: -4px 7px 83px -4px rgba(0,0,0,0.67);
 
 } */
 
-#subscribe {
-  background-image: url("../img/subscribe.jpg");
-  width: 100%;
-  display: inline;
 
-
-}
 .customers {
   background-color: white;
   padding: 50px;
@@ -81,7 +75,16 @@ box-shadow: -4px 7px 83px -4px rgba(0,0,0,0.67);
 
 }
 
+.subscribe {
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  width: 100%;
+  display: inline;
+
+
+}
+
 .footer {
   background-color: orange;
-  
+  align-content: center;
+
 }
