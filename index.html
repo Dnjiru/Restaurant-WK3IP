@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Document</title>
 </head>
@@ -88,8 +89,13 @@
                       </div>
                      </div>
     </div>
-    <div class="menu">
-           <div class="nav-list">
+    <div class="menu-burgers">
+    <div class="chakula">
+            <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+            <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+            <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+            <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+           <!-- <div class="nav-list">
                <ul class="nav nav-tabs nav-justified">
                    <li class="active"><a data-toggle="tab" href="#fastFood">Fast Food</a></li>
                    <li><a data-toggle="tab" href="#drinks">Drinks</a></li>
@@ -159,8 +165,22 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+    <div class="container" id="burgers">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/chickenBurger.jpg" alt="">
             </div>
+            <div class="col-sm-4">
+                <img src="img/beefBurger.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img src="img/chickenPizza.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
 
 
 
@@ -186,7 +206,7 @@
         
                 </div>
                </div>
-           </div>
+    </div>
     <div class="customers">
             <div class="container">
                 <div class="row">
@@ -244,13 +264,23 @@
     </div>
 
     <div class="footer">
-        <img src="img/footerlogos/logo_white.png" alt="logo_white">
+       <h3> <img src="img/footerlogos/logo_white.png" alt="logo_white">MENU</h3>
     <p>Thats What We are</p>
-    <div class="picha">
+    <!-- <div class="picha">
     <img src="img/footerlogos/facebook.png" alt="facebook">
     <img src="img/footerlogos/twitter.png" alt="twitter">
     <img src="img/footerlogos/pinterest.png" alt="">
+   </div> -->
+<div class="footer-logos">
+   <div class="icons">
+        <ul id="logos">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              </ul>
    </div>
+</div>
     </div>
 </div>
 </body>
