@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
     <div class="showcase">
         <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
             <div class="container-fluid">
@@ -88,27 +89,114 @@
                      </div>
     </div>
     <div class="menu">
-           <div class="jumbotron" id="jumbotron-menu">
-               <div class="row">
-                   <div class="col-md-1"></div>
-                   <div class="col-md-10">
-                    <div class="jumbotron" id="inner">
-                        <div class="tabs">
-                          <ul class="tab-links">
-                            <li class="active"><a href="#tab1">Fast Food</a></li>
-                            <li><a href="#tab2">Drinks</a></li>
-                            <li><a href="#tab3">Chicken</a></li>
-                            <li><a href="#tab4">Rice</a></li>
-                   </ul>
+           <div class="nav-list">
+               <ul class="nav nav-tabs nav-justified">
+                   <li class="active"><a data-toggle="tab" href="#fastFood">Fast Food</a></li>
+                   <li><a data-toggle="tab" href="#drinks">Drinks</a></li>
+                   <li><a data-toggle="tab" href="#chicken">Chicken</a></li>
+                   <li><a data-toggle="tab" href="#rice">Rice</a></li>
+               </ul>
+               <div class="tab-content">
+                   <div class="tap-pane fade in active" id="fastfood">
+                   <div class="carouselSlide" id="fastFoodCarousel" data-ride="carousel">
+                       <ol class="carousel-indicators">
+                           <li data-target="#fastFoodCarousel" data-slide-to="0" class="active"></li>
+                           <li data-target="#fastFoodCarousel" data-slide-to="1" class="active"></li>
+                           <li data-target="#fastFoodCarousel" data-slide-to="2" class="active"></li>
+
+                       </ol>
+                       <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/chickenBurger.jpg" alt="Chicken Burger">
+                            </div>
+                            <div class="item active ">
+                                <img src="img/beefBurger.jpg" alt="Beef Burger">
+                            </div>
+                            <div class="item active">
+                                <img src="img/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                            </div>
+                            <a class="left carousel-control" href="#fastFoodCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#fastFoodCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                        </div>
+                   </div>
+                   <div id="rice" class="tab-pane fade ">
+                        <div id="riceCarousel" class="carousel" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                        <li data-target="#riceCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#riceCarousel" data-slide-to="1" class="active"></li>
+                                        <li data-target="#riceCarousel" data-slide-to="2" class="active"></li>
+                                    </ol>
+        
+                                  
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="img/chickenBurger.jpg" alt="Chicken Burger">
+                                        </div>
+                                        <div class="item active ">
+                                            <img src="img/beefBurger.jpg" alt="Beef Burger">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="img/chickenPizza.jpg" alt="Chicken Pizza">
+                                        </div>
+                                    </div>
+        
+                        
+                                    <a class="left carousel-control" href="#riceCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#riceCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+                            <!---- Up to here-->
+                   <div id="drinks" class="tab-pane fade ">
+                     <div id="drinksCarousel" class="carousel" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                    <li data-target="#drinksCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#drinksCarousel" data-slide-to="1" class="active"></li>
+                                    <li data-target="#drinksCarousel" data-slide-to="2" class="active"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
+                                        </div>
+                                        <div class="item active ">
+                                            <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                                        </div>
+                                    </div>
+        
+                </div>
                </div>
-            </div>
-        </div>
-            </div>
            </div>
-    </div>
     <div class="customers">
-            <div class="row text-centre padding">
-                    <div class="col-sm-7 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="container">
+                            <div class="row">
+                        <div class="col-sm-7 ">
                         <h4>Our Happy Customers</h4>
                         <p><strong>George Richard</strong></p>
                       <p>Great food! Menu is awesome, there foods are not only great but also in the right price. I'll highly recommend them.</p>
@@ -119,10 +207,19 @@
                       
                     </div>
                     </div>
+                    <hr>
                     <div class="col-sm-5 ">
                         <h4>About Menu</h4>
                       <p>We are menu a little team of 7 members. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, inventore!</p>
                     </div>
+                </div>
+                </div>
+                    </div>
+                    <div class="col-sm-2">
+
+                    </div>
+                </div>
+                    
 
           </div>       
     </div>
@@ -131,13 +228,15 @@
                 
                     <div class="row">
                     <form action="form-inline" >
+                            <h2>Get our daily food items delivered to your email</h2>
                     <div class="form-group">
                        
-                        <h2>Get our daily food items delivered to your email</h2>
+                        
                     
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="email"  placeholder="Your email"> 
-                        <button type="submit" class="btn btn-warning">Subscribe</button>
+                        <!-- <label for="email">Email address:</label> -->
+                   Email Address: <input type="email" class="form-control" id="email"  placeholder="Your email"> 
+                        <!-- <input type="subscribe" class="btn btn-warning">Subscribe</input> -->
+                        <button type="submit" class="btn btn-warning" size="small">Subscribe</button>
                     </div>
                     </form>
                     </div>
@@ -146,10 +245,13 @@
 
     <div class="footer">
         <img src="img/footerlogos/logo_white.png" alt="logo_white">
-<p>Thats What We are</p>
-<img src="img/footerlogos/facebook.png" alt="facebook">
-<img src="img/footerlogos/twitter.png" alt="twitter">
-<img src="img/footerlogos/pinterest.png" alt="">
+    <p>Thats What We are</p>
+    <div class="picha">
+    <img src="img/footerlogos/facebook.png" alt="facebook">
+    <img src="img/footerlogos/twitter.png" alt="twitter">
+    <img src="img/footerlogos/pinterest.png" alt="">
+   </div>
     </div>
+</div>
 </body>
 </html>

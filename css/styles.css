@@ -1,8 +1,15 @@
 .body {
   font-family: 'Playfair Display', serif;
-  margin: 30px;
+  margin: auto;
 }
 .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.showcase {
   position: relative;
   text-align: center;
   color: white;
@@ -22,7 +29,7 @@
   width: 100%;
 }
 
-#happy {
+#happy {  
   background-color: red;
 
 }
@@ -70,11 +77,75 @@
   color: white;
   text-align: center;
   margin: 0;
-  
-  
+ } 
+ .menu {
+  margin-left: -10%;
+  margin-right: -10%;
+  /* text-align: center; */
+  background-image: url("..img/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px;
+}
+.nav-list {
+  width: 80%;
+  margin: auto;
+}
+
+.nav-tabs {
+  background-color: lightgrey;
+  font-size: 16px;
+}
+
+.nav-tabs>.active {
+  background-color: white;
+  border-bottom: 0;
+}
+
+.nav-tabs li {
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
+}
+
+a {
+  color: black;
+}
+ 
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    color: #f15a19;
+}
+
+.tab-content {
+    background-color: white;
+}
+
+.carousel-inner {
+    padding: 25px;
+}
+.item {
+  float: left;
+  margin: 10px;
+}
+
+.carousel-control {
+  opacity: 1;
+  color: #f15a19;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
 
  
-}
+
+ 
 .customers {
   background-color: white;
   padding: 50px;
@@ -87,14 +158,31 @@
 .subscribe {
   background-image: url("../img/backgrounds/subscribe.jpg");
   width: 100%;
-  display: inline;
+  color: white;
+  padding: 20px;
+  margin-left: 5%;
 
-
+}
+.subscribe .form-group {
+  margin-left: 40%;
+  text-align: center;
+  display: flex;
 }
 
 .footer {
   background-color: orange;
   align-content: center;
   color: white;
+  margin-left: 5%;
+  padding: 20px;
 
+}
+.footer img, p {
+  margin-left: 50%;
+}
+
+
+
+.customers .col-sm-8 {
+  box-shadow: 5px 5px 5px 5px rgba(50, 50, 50, 0.52);
 }
